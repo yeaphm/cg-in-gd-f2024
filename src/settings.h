@@ -27,6 +27,9 @@ namespace cg
 
 		unsigned raytracing_depth;
 		unsigned accumulation_num;
+
+		//Option for showing edges of polygons
+		bool show_edges;
 	};
 
 }// namespace cg
